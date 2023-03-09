@@ -16,6 +16,10 @@ To use the chatbot, run the script with the name of the file you want to save th
 ```
 python ask-chatgpt-gpt-3.py file_name
 ```
+or
+```
+ask-chatgpt-davinci-003.py file_name
+```
 
 This will prompt the user for input and generate text based on that input. The generated text will be displayed on the screen, and the user will be prompted to save the text to the specified file.
 
