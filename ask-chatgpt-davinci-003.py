@@ -26,7 +26,7 @@ while True:
 
     request_data = {
         "model": "text-davinci-003",
-        "prompt": "whats aws cloud front",
+        "prompt": prompt,
         "max_tokens": 4000,
         "temperature": 0.5
     }
