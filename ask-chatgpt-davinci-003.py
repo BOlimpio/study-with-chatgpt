@@ -40,7 +40,7 @@ while True:
         while satisfactory.lower() not in ["y", "n"]:
             satisfactory = input("\nPlease enter 'y' or 'n': ")
         if satisfactory.lower() == "y":
-            file.write(f"{prompt} \n {response_text} \n" )
+            file.write(f"\nQuestion: {prompt} \n {response_text} \n" )
             file.flush()
             print ("\nResponse saved in document\n")
         else:
