@@ -28,7 +28,7 @@ while True:
         "model": "gpt-3.5-turbo",
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 4000,
-        "temperature": 0.5
+        "temperature": 0
     }
 
     response = requests.post(api_endpoint, headers=request_headers, json=request_data)
